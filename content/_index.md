@@ -19,3 +19,6 @@ ok wtf just realised before diving into AI i need to learn linear algebra. that 
 * [ ] skim and recognize holes [swyxio/ai-notes](https://github.com/swyxio/ai-notes/tree/main#top-ai-reads)
 
 too much of a pussy to start reading papers. need some foundational knowledege and confidence
+
+---
+* [ ] karpathy's presentation @ MS Build 2023
