@@ -2,11 +2,8 @@
 # Set to the URL for your site
 baseURL = "https://lolwierd.pages.dev"
 
-# The name of this wonderful theme ;-).
-theme = 'hugo-bearblog'
-
 # Basic metadata configuration for your blog.
-title = "better"
+title = "lolwierd"
 author = "lolwierd"
 # copyright = "Copyright © 2020, Jane Doe."
 languageCode = "en-US"
@@ -40,10 +37,6 @@ ignoreErrors = ["error-disable-taxonomy"]
   # opengraph structured data template.
   # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
   title = "getting better"
-
-  # This theme will, by default, inject a made-with-line at the bottom of the page.
-  # You can turn it off, but we would really appreciate if you don’t :-).
-  hideMadeWithLine = true
 
   # By default, this theme displays dates with a format like "02 Jan, 2006", but
   # you can customize it by setting the `dateFormat` param in your site's config
