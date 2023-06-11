@@ -6,7 +6,7 @@
 _**accelerate!**_
 
 ok wtf just realised before diving into AI i need to learn linear algebra. that slows me down considerably.
-* [ ] finish watching [3Blue1Brown: Linear Alg](https://www.youtube.com/playlist?list=PL0-GT3co4r2y2YErbmuJw2L5tW4Ew2O5B) (maybe if i finish this i can go through the course parallely or skip it altogether 🤷 )
+* [ ] finish watching [3B1B: Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) (maybe if i finish this i can go through the course parallely or skip it altogether 🤷 )
 * [ ] start watching [MIT 18.06 Linear Algebra, Spring 2005](https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8) (figure out if i can go through this parallely. _if not this will add weeks!_)
 ---
 * [ ] read [Waterfall diagrams and relative odds](https://arbital.com/p/bayes_waterfall_diagram/?l=1x1&pathId=93949)
