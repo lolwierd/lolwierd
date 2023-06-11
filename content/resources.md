@@ -5,9 +5,4 @@ menu:
     weight: 4
 ---
 
-# AI
-
-# CS
-
-
-# Misc
+### [reading list](https://raindrop.io/lolwierd/reading-list-34829867) {.alt-link}
