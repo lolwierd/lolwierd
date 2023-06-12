@@ -2,6 +2,8 @@
 
 > shamelessly stole [yacine's](https://yacine.ca/) whole fucking flow
 
+im [late]({{<ref "/notes/late.md">}} "notes")
+
 **rough plan**
 get a tour of the landscape while building the foundational knowledge (mainly linear algebra), then try to get hands on (not building obv, but maybe some fine tuning, developing embeddings, langchain, etc). will decide next steps after i get an overall feel of the area, but ideally would like to get an understanding of how they work next (we'll see how the prior steps go first though 🙃)
 
@@ -15,7 +17,7 @@ ok wtf just realised before diving into AI i need to learn linear algebra. that 
 * [ ] start watching [MIT 18.06 Linear Algebra, Spring 2005](https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8) (figure out if i can go through this parallely. _if not this will add weeks!_ figure out a shortcut! if no exist no shortcut me big sad).
 
 ---
-* [ ] chill watch [Neural networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) (no need to take notes, cause more of a revision)
+* [ ] chill watch [Neural networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) (no need to take notes, more of a revision)
 
 ---
 * [ ] read [Prompt Engineering Guide](https://www.promptingguide.ai/). [notes]({{<ref "/notes/prompt-eng.md">}} "notes")

@@ -25,7 +25,8 @@ this addition of vectors visualization is cool.
 
 ![vector addition](/media/3b1b-la-vector-addition.png "addition of vectors sitting in a coordinate plane")
 
-#### COOL IDEA ALERT!!
+### COOL IDEA ALERT!! 
+
 think of vectors as movement in space with a direction and a magnitude.
 
 
