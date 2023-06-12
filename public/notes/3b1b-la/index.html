@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>lolwierd</title>
+<meta name="title" content="lolwierd" />
+<meta name="description" content="3B1B: Essence of Linear Algebra 1: Vectors 3 main ideas surrounding vectors.
+vectors - arrows pointing in space - has length and directon position does not matter can be 2D and 3D. vectors - ordered list of numbers - i.e vector fancy word for list last one i dont resonate with but here it is regardless. i dont really get it ig.
+vectors - can be anything as long as there is an addition and a multiplication operation possible." />
+<meta name="keywords" content="" />
+
+
+<meta property="og:title" content="" />
+<meta property="og:description" content="3B1B: Essence of Linear Algebra 1: Vectors 3 main ideas surrounding vectors.
+vectors - arrows pointing in space - has length and directon position does not matter can be 2D and 3D. vectors - ordered list of numbers - i.e vector fancy word for list last one i dont resonate with but here it is regardless. i dont really get it ig.
+vectors - can be anything as long as there is an addition and a multiplication operation possible." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lolwierd.pages.dev/notes/3b1b-la/" /><meta property="og:image" content="https://lolwierd.pages.dev/media/share.png"/><meta property="article:section" content="notes" />
+
+<meta property="og:site_name" content="getting better" />
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://lolwierd.pages.dev/media/share.png"/>
+
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="3B1B: Essence of Linear Algebra 1: Vectors 3 main ideas surrounding vectors.
+vectors - arrows pointing in space - has length and directon position does not matter can be 2D and 3D. vectors - ordered list of numbers - i.e vector fancy word for list last one i dont resonate with but here it is regardless. i dont really get it ig.
+vectors - can be anything as long as there is an addition and a multiplication operation possible."/>
+
+
+
+<meta itemprop="name" content="">
+<meta itemprop="description" content="3B1B: Essence of Linear Algebra 1: Vectors 3 main ideas surrounding vectors.
+vectors - arrows pointing in space - has length and directon position does not matter can be 2D and 3D. vectors - ordered list of numbers - i.e vector fancy word for list last one i dont resonate with but here it is regardless. i dont really get it ig.
+vectors - can be anything as long as there is an addition and a multiplication operation possible.">
+
+<meta itemprop="wordCount" content="290"><meta itemprop="image" content="https://lolwierd.pages.dev/media/share.png"/>
+<meta itemprop="keywords" content="" />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+    body {
+        font-family: Verdana, sans-serif;
+        margin: auto;
+        padding: 20px;
+        max-width: 720px;
+        text-align: left;
+        background-color: #f9f9f9;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        line-height: 1.5;
+        color: #444;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+        color: #1f1f1f;
+    }
+
+    a {
+        color: #2e3abc;
+    }
+
+    .title {
+        text-decoration: none;
+        border: 0;
+    }
+
+    .title span {
+        font-weight: 400;
+    }
+
+    nav a {
+        margin-right: 10px;
+    }
+
+    textarea {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    input {
+        font-size: 16px;
+    }
+
+    content {
+        line-height: 1.6;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    code {
+        padding: 2px 5px;
+        background-color: #f2f2f2;
+    }
+
+    pre code {
+        color: #1f1f1f;
+        display: block;
+        padding: 20px;
+        white-space: pre-wrap;
+        font-size: 14px;
+        overflow-x: auto;
+    }
+
+    div.highlight pre {
+        background-color: initial;
+        color: initial;
+    }
+
+    div.highlight code {
+        background-color: unset;
+        color: unset;
+    }
+
+    blockquote {
+        border-left: 3px solid navy;
+        color: #737373;
+        padding-left: 12px;
+        font-style: italic;
+        margin-inline-start: 12px;
+        margin-inline-end: 12px;
+
+    }
+
+    footer {
+        padding: 25px;
+        text-align: center;
+    }
+
+    .helptext {
+        color: #777;
+        font-size: small;
+    }
+
+    .errorlist {
+        color: #eba613;
+        font-size: small;
+    }
+
+     
+    ul.blog-posts {
+        list-style-type: none;
+        padding: unset;
+    }
+
+    ul.blog-posts li {
+        display: flex;
+    }
+
+    ul.blog-posts li span {
+        flex: 0 0 130px;
+    }
+
+    ul.blog-posts li a:visited {
+        color: #8b6fcb;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        body {
+            background-color: #333;
+            color: #ddd;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        strong,
+        b {
+            color: #eee;
+        }
+
+        a {
+            color: #8cc2dd;
+             
+        }
+
+        code {
+            background-color: #777;
+        }
+
+        pre code {
+            color: #ddd;
+        }
+
+        blockquote {
+            color: #ccc;
+        }
+
+        textarea,
+        input {
+            background-color: #252525;
+            color: #ddd;
+        }
+
+        .helptext {
+            color: #aaa;
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .alt-link a {
+        color: #4CA751;
+    }
+
+    a[title="notes"] {
+         
+         
+        color: #E26D5A;
+    }
+
+    ul:has(input[type=checkbox]) {
+        list-style-type: none;
+        padding-inline-start: 8px;
+    }
+</style>
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>lolwierd</h2>
+</a>
+<nav><a href="/">home</a>
+
+<a href="/blog/">blog</a>
+
+<a href="/resources/">resources</a>
+
+<a href="/about/">about</a>
+
+
+</nav>
+</header>
+  <main>
+
+<content>
+  <h2 id="3b1b-essence-of-linear-algebra">3B1B: Essence of Linear Algebra</h2>
+<h3 id="1-vectors">1: Vectors</h3>
+<p>3 main ideas surrounding vectors.</p>
+<ul>
+<li>vectors - arrows pointing in space - has length and directon position does not matter can be 2D and 3D.</li>
+<li>vectors - ordered list of numbers - i.e vector fancy word for list</li>
+</ul>
+<p>last one i dont resonate with but here it is regardless. i dont really <em>get</em> it ig.</p>
+<ul>
+<li>vectors - can be anything as long as there is an addition and a multiplication operation possible.(Multiplication by a number). ok this is abstracting away from the representation. that is its purpose.</li>
+</ul>
+<p><strong>think of vectors as the 1st idea in a coordinate system with its tail(the part without the arrow) rooted at the origin</strong></p>
+<p><img src="/media/3b1b-la-vectors.png" alt="vector" title="vector sitting on a coordinate plane"></p>
+<p>the goal is to understand concepts using this coordinate plane idea and then transfer that to the list of numbers idea.</p>
+<p>know this idea already. how to represent vectors in a cordinate plane.</p>
+<p>[coordinateAxe1 coordinateAxe2 coordinateAxe3 coordinateAxe4 &hellip;] -&gt; Number of coordinate Axes -&gt; Dimensions<br>
+[x y] -&gt; 2D<br>
+[x y z] -&gt; 3D</p>
+<p>this addition of vectors visualization is cool.</p>
+<p><img src="/media/3b1b-la-vector-addition.png" alt="vector addition" title="addition of vectors sitting in a coordinate plane"></p>
+<h4 id="cool-idea-alert">COOL IDEA ALERT!!</h4>
+<p>think of vectors as movement in space with a direction and a magnitude.</p>
+<p>same idea can be applied to the number line obv</p>
+<p>[x<sub>1</sub> y<sub>1</sub>] + [x<sub>2</sub> y<sub>2</sub>] = [x<sub>1</sub>+x<sub>2</sub> y<sub>1</sub>+y<sub>2</sub>]</p>
+<p>multiplication of a vector by a number is streching the vector if the number is &gt;1, shrinking the vector if the number is &lt;1 and the same for negative numbers but the vector is flipped first.</p>
+<p>this operation can be called scaling (for obvious reasons) and the number which scales the vector is called a <strong><em>scaler</em></strong>!<br>
+throughout linear algebra one of the most common things numbers do is scale vectors. so scaler &lt;-&gt; number</p>
+<p>2[x y] -&gt; [2x 2y]</p>
+
+</content>
+<p>
+  
+</p>
+
+  </main>
+  <footer></footer>
+
+  </body>
+
+</html>

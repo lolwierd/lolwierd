@@ -7,7 +7,7 @@
 
 last one i dont resonate with but here it is regardless. i dont really _get_ it ig.
 
-- vectors - can be anything as long as there is an addition and a multiplication operation possible.(Multiplication by a number). ok this is abstracting away from the representation. this way it can be thought of as having a purpose.
+- vectors - can be anything as long as there is an addition and a multiplication operation possible.(Multiplication by a number). ok this is abstracting away from the representation. that is its purpose.
 
 **think of vectors as the 1st idea in a coordinate system with its tail(the part without the arrow) rooted at the origin**
 
@@ -28,7 +28,6 @@ this addition of vectors visualization is cool.
 #### COOL IDEA ALERT!!
 think of vectors as movement in space with a direction and a magnitude.
 
-![vector-movement](/media/3b1b-la-vector-movement.gif "vectors as a movement in space and their addition")
 
 same idea can be applied to the number line obv
 
@@ -36,7 +35,6 @@ same idea can be applied to the number line obv
 
 multiplication of a vector by a number is streching the vector if the number is >1, shrinking the vector if the number is <1 and the same for negative numbers but the vector is flipped first.
 
-![vector-multiplication](/media/3b1b-la-vector-multiplication.gif "vector multiplication aka scaling")
 
 this operation can be called scaling (for obvious reasons) and the number which scales the vector is called a **_scaler_**!
 throughout linear algebra one of the most common things numbers do is scale vectors. so scaler <-> number
