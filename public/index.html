@@ -44,6 +44,7 @@
         overflow-wrap: break-word;
         line-height: 1.5;
         color: #444;
+        scroll-behavior: smooth;
     }
 
     h1,
@@ -225,6 +226,12 @@
         list-style-type: none;
         padding-inline-start: 8px;
     }
+
+    li:has(input[type=checkbox]) {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 4px;
+    }
 </style>
 </head>
 
@@ -244,14 +251,24 @@
 </nav>
 </header>
   <main>
-<h3 id="getting-better">getting better</h3>
+<a href="#getting-better" class="header-link">
+    <h3 id="getting-better">
+        getting better
+    </h3>
+</a>
 <blockquote>
 <p>shamelessly stole <a href="https://yacine.ca/"  target="_blank" rel="nofollow noopener noreferrer" >yacine&rsquo;s</a>
  whole fucking flow</p>
 </blockquote>
+<p>im <a href="https://lolwierd.pages.dev/notes/late/"  title="notes" >late</a>
+</p>
 <p><strong>rough plan</strong><br>
 get a tour of the landscape while building the foundational knowledge (mainly linear algebra), then try to get hands on (not building obv, but maybe some fine tuning, developing embeddings, langchain, etc). will decide next steps after i get an overall feel of the area, but ideally would like to get an understanding of how they work next (we&rsquo;ll see how the prior steps go first though 🙃)</p>
-<h1 id="week-of-june-12th">week of june 12th</h1>
+<a href="#week-of-june-12th" class="header-link">
+    <h1 id="week-of-june-12th">
+        week of june 12th
+    </h1>
+</a>
 <p><em><strong>accelerate!</strong></em></p>
 <ul>
 <li><input disabled="" type="checkbox"> read <a href="https://arbital.com/p/bayes_waterfall_diagram/?l=1x1&amp;pathId=93949"  target="_blank" rel="nofollow noopener noreferrer" >Waterfall diagrams and relative odds</a>
@@ -268,7 +285,7 @@ get a tour of the landscape while building the foundational knowledge (mainly li
 <hr>
 <ul>
 <li><input disabled="" type="checkbox"> chill watch <a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi"  target="_blank" rel="nofollow noopener noreferrer" >Neural networks</a>
- (no need to take notes, cause more of a revision)</li>
+ (no need to take notes, more of a revision)</li>
 </ul>
 <hr>
 <ul>

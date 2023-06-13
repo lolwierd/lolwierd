@@ -47,6 +47,7 @@
         overflow-wrap: break-word;
         line-height: 1.5;
         color: #444;
+        scroll-behavior: smooth;
     }
 
     h1,
@@ -228,6 +229,12 @@
         list-style-type: none;
         padding-inline-start: 8px;
     }
+
+    li:has(input[type=checkbox]) {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 4px;
+    }
 </style>
 </head>
 
@@ -258,7 +265,11 @@
 </p>
 
 <content>
-  <h1 id="mental-reset">Mental Reset</h1>
+  <a href="#mental-reset" class="header-link">
+    <h1 id="mental-reset">
+        Mental Reset
+    </h1>
+</a>
 <p>In the time period between my last post and this, I did a bunch of things. Some of them dumb, some of them cool and most of them unnecessary. I’m proud of all of them nonetheless (but ofc I won’t talk about the dumb ones)</p>
 <p>I learned go. It is a pleasant language. Not amazing, not bad, good. Using go, I then proceeded to redo the backend of this blog.</p>
 <blockquote>
@@ -269,7 +280,11 @@ NOW ITS A <a href="https://joelhooks.com/digital-garden/"  target="_blank" rel="
 <blockquote>
 <p>It doesn&rsquo;t make sense to keep updating this, so I won&rsquo;t.</p>
 </blockquote>
-<h1 id="1-thing-i-love-2-do-is-overdo">1 thing I love 2 do is overdo</h1>
+<a href="#1-thing-i-love-2-do-is-overdo" class="header-link">
+    <h1 id="1-thing-i-love-2-do-is-overdo">
+        1 thing I love 2 do is overdo
+    </h1>
+</a>
 <p>I wanted to find a way to write, without getting tied down to using markdown and my laptop.</p>
 <p>Basically, a system where I can comfortably write on my phone and not markdown. So I started researching different CMSes and one of them which piqued my interest was <a href="https://wagtail.org/"  target="_blank" rel="nofollow noopener noreferrer" >Wagtail</a>
  and its streamfield. But that would mean I would have to rewrite everything in Django and deploy the site on my own server, which opened its own bag of worms (CI/CD, CDN, etc).</p>
@@ -279,7 +294,11 @@ NOW ITS A <a href="https://joelhooks.com/digital-garden/"  target="_blank" rel="
 <p>Was thinking about wrapping this whole thing up in a simple webpage/API so that I can revalidate my posts by making a visit to a page. Something like revalidate.lolwierd.ml. But I lazied out.</p>
 <p>As of now, this setup works pretty well. I even have a bunch of metadata (like tags, tldr, description) in every notion page which gets added as frontmatter to each post.</p>
 <p>I also moved all my personal services, from nginx to caddy, which took wayyy longer than expected.</p>
-<h1 id="how-bout-u-redirect-yourself-to-some-bitches">How bout u redirect yourself to some bitches??</h1>
+<a href="#how-bout-u-redirect-yourself-to-some-bitches" class="header-link">
+    <h1 id="how-bout-u-redirect-yourself-to-some-bitches">
+        How bout u redirect yourself to some bitches??
+    </h1>
+</a>
 <p>Setting up caddy was a breeze, the Caddyfile convention is very straight forward and it comes with some very sane defaults (like auto HTTPS, http/2, etc) so I didn’t need to worry too much.</p>
 <p>All I had to do was move every server block in my nginx.conf to its corresponding Caddyfile counterpart. It took like 10 minutes.</p>
 <p>But all of my sites stopped working.?.?.??</p>
@@ -290,7 +309,11 @@ NOW ITS A <a href="https://joelhooks.com/digital-garden/"  target="_blank" rel="
 <p>There is probably some lesson here about life and its unpredictable nature but it&rsquo;s probably too generalized or too nuanced for me to talk about.</p>
 <p>Also after this, I got 2 more servers (making the total 3) and set up Tailscale ssh on all of them. I like not having to manage private keys. That part was actually easy and took like 5 minutes. Gotta love Tailscale.</p>
 <p>Next, I set out to set up my own mail server!!</p>
-<h1 id="the-orange-site-told-me-this-is-very-hard">The orange site told me this is very hard.</h1>
+<a href="#the-orange-site-told-me-this-is-very-hard" class="header-link">
+    <h1 id="the-orange-site-told-me-this-is-very-hard">
+        The orange site told me this is very hard.
+    </h1>
+</a>
 <blockquote>
 <p>I wrote a scuffed af Twitter <a href="https://twitter.com/LOLwierd_/status/1566688228169875456?s=20&amp;t=yrZbybcfF0Ihc0IKwkcdZw"  target="_blank" rel="nofollow noopener noreferrer" >thread</a>
  as I went about building this.</p>
@@ -307,7 +330,11 @@ NOW ITS A <a href="https://joelhooks.com/digital-garden/"  target="_blank" rel="
 <p>Wasn’t as hard as I was told it would be. Maybe because I offloaded the MTA to SMTP relays. But nonetheless, it works and I intend to make full use of it.</p>
 <p>I also got my plex working properly. It worked pretty well on my pi but deployed one more instance on my main-server for friends to watch. Also deployed flood for torrents. Both servers are on the same account and I fully intend to buy a lifetime subscription in the future.</p>
 <p>Now time for some personal talk.</p>
-<h1 id="mental-reset-1">Mental Reset.</h1>
+<a href="#mental-reset-1" class="header-link">
+    <h1 id="mental-reset-1">
+        Mental Reset.
+    </h1>
+</a>
 <p>Very very sure that these coming 5-6 months will decide how the next 5-10 years of my life are going to be.</p>
 <p>Currently aiming for a GATE rank which would allow me to pursue my master&rsquo;s at IISC, Banglore.</p>
 <p>Seems pretty unreasonable but I idc. I will be ramping up the velocity at which I am going at it.</p>

@@ -43,6 +43,7 @@
         overflow-wrap: break-word;
         line-height: 1.5;
         color: #444;
+        scroll-behavior: smooth;
     }
 
     h1,
@@ -223,6 +224,12 @@
     ul:has(input[type=checkbox]) {
         list-style-type: none;
         padding-inline-start: 8px;
+    }
+
+    li:has(input[type=checkbox]) {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 4px;
     }
 </style>
 </head>

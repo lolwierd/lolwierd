@@ -55,6 +55,7 @@ vectors - can be anything as long as there is an addition and a multiplication o
         overflow-wrap: break-word;
         line-height: 1.5;
         color: #444;
+        scroll-behavior: smooth;
     }
 
     h1,
@@ -236,6 +237,12 @@ vectors - can be anything as long as there is an addition and a multiplication o
         list-style-type: none;
         padding-inline-start: 8px;
     }
+
+    li:has(input[type=checkbox]) {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 4px;
+    }
 </style>
 </head>
 
@@ -257,8 +264,16 @@ vectors - can be anything as long as there is an addition and a multiplication o
   <main>
 
 <content>
-  <h2 id="3b1b-essence-of-linear-algebra">3B1B: Essence of Linear Algebra</h2>
-<h3 id="1-vectors">1: Vectors</h3>
+  <a href="#3b1b-essence-of-linear-algebra" class="header-link">
+    <h2 id="3b1b-essence-of-linear-algebra">
+        3B1B: Essence of Linear Algebra
+    </h2>
+</a>
+<a href="#1-vectors" class="header-link">
+    <h3 id="1-vectors">
+        1: Vectors
+    </h3>
+</a>
 <p>3 main ideas surrounding vectors.</p>
 <ul>
 <li>vectors - arrows pointing in space - has length and directon position does not matter can be 2D and 3D.</li>
@@ -277,7 +292,11 @@ vectors - can be anything as long as there is an addition and a multiplication o
 [x y z] -&gt; 3D</p>
 <p>this addition of vectors visualization is cool.</p>
 <p><img src="/media/3b1b-la-vector-addition.png" alt="vector addition" title="addition of vectors sitting in a coordinate plane"></p>
-<h4 id="cool-idea-alert">COOL IDEA ALERT!!</h4>
+<a href="#cool-idea-alert" class="header-link">
+    <h3 id="cool-idea-alert">
+        COOL IDEA ALERT!!
+    </h3>
+</a>
 <p>think of vectors as movement in space with a direction and a magnitude.</p>
 <p>same idea can be applied to the number line obv</p>
 <p>[x<sub>1</sub> y<sub>1</sub>] + [x<sub>2</sub> y<sub>2</sub>] = [x<sub>1</sub>+x<sub>2</sub> y<sub>1</sub>+y<sub>2</sub>]</p>

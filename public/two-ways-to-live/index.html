@@ -47,6 +47,7 @@
         overflow-wrap: break-word;
         line-height: 1.5;
         color: #444;
+        scroll-behavior: smooth;
     }
 
     h1,
@@ -228,6 +229,12 @@
         list-style-type: none;
         padding-inline-start: 8px;
     }
+
+    li:has(input[type=checkbox]) {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 4px;
+    }
 </style>
 </head>
 
@@ -293,7 +300,11 @@ ik <a href="https://www.txst.edu/philosophy/resources/fallacy-definitions/False-
 <blockquote>
 <p>I realized again, that I don’t have to be anyone. I don’t have to achieve anything. I just have to be happy. Whatever ideal I am chasing, will not matter.</p>
 </blockquote>
-<h3 id="this-is-not-me-giving-up">This is not me giving up.</h3>
+<a href="#this-is-not-me-giving-up" class="header-link">
+    <h3 id="this-is-not-me-giving-up">
+        This is not me giving up.
+    </h3>
+</a>
 <p>I will still go behind my goals. But I will no longer <code>give it my all</code>.</p>
 <p>I will <code>try my best</code>.</p>
 <p>The difference between them (personally), is I will not force myself to do it. I will find a balance between what I want to do and what I have to do.</p>

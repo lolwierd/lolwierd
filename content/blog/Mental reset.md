@@ -32,7 +32,7 @@ As of now, this setup works pretty well. I even have a bunch of metadata (like t
 
 I also moved all my personal services, from nginx to caddy, which took wayyy longer than expected.
 
-# How bout u redirect yourself to some bitches??
+# How bout u redirect yourself to some cheese??
 
 Setting up caddy was a breeze, the Caddyfile convention is very straight forward and it comes with some very sane defaults (like auto HTTPS, http/2, etc) so I didn’t need to worry too much.
 

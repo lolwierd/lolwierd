@@ -43,6 +43,7 @@
         overflow-wrap: break-word;
         line-height: 1.5;
         color: #444;
+        scroll-behavior: smooth;
     }
 
     h1,
@@ -224,6 +225,12 @@
         list-style-type: none;
         padding-inline-start: 8px;
     }
+
+    li:has(input[type=checkbox]) {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 4px;
+    }
 </style>
 </head>
 
@@ -256,6 +263,17 @@
         </i>
       </span>
       <a href="https://lolwierd.pages.dev/notes/3b1b-la/"></a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='0001-01-01' pubdate>
+            01 Jan, 0001
+          </time>
+        </i>
+      </span>
+      <a href="https://lolwierd.pages.dev/notes/late/"></a>
     </li>
     
     <li>
