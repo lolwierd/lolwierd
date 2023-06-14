@@ -47,7 +47,7 @@ vectors - can be anything as long as there is an addition and a multiplication o
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lolwierd.pages.dev/notes/late/</guid>
-      <description>im late FUCKKK</description>
+      <description> im late </description>
     </item>
     
     <item>
@@ -67,7 +67,7 @@ Knobs Temperature: higher value -&amp;gt; more deterministic output. lower value
       
       <guid>https://lolwierd.pages.dev/about/</guid>
       <description>i like backend and system design
-GitHub Twitter </description>
+GitHub </description>
     </item>
     
     <item>
@@ -76,7 +76,7 @@ GitHub Twitter </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lolwierd.pages.dev/resources/</guid>
-      <description> reading list </description>
+      <description> reading list Illustrated guide to transformer Annotated PyTorch Paper Implementations </description>
     </item>
     
   </channel>

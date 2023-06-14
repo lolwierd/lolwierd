@@ -16,7 +16,7 @@ parts of a prompt
 - Input Data - the input or question that we are interested to find a response for
 - Output Indicator - the type or format of the output.
 
-imma not write obv shit now. waste of time.
+imma not write obv things now. waste of time.
 
 seperating the prompt into instruction and input helps.
 be precise. concise. dont be clever.
@@ -98,4 +98,15 @@ What a horrible show! //
 
 glean the structure not the specific formats.
 
+cool thing is in modern llms something like this works too.
+
+```
+Positive This is awesome! 
+This is bad! Negative
+Wow that movie was rad!
+Positive
+What a horrible show! --
+```
+
+### chain of thought prompting
 

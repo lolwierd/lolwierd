@@ -39,9 +39,9 @@ But reading Chainsaw Man taught me another way to live.
 
 No dreams, no ambitions. Go through every day like it’s your last, eat good food, sleep and repeat.
 
-Denji isn’t tied down by shit. He does what he wants to do. No chasing after an ideal. Not trying to be the strongest. Just living the life he wants (kinda).
+Denji isn’t tied down by anything. He does what he wants to do. No chasing after an ideal. Not trying to be the strongest. Just living the life he wants (kinda).
 
-It’s almost like it’s trying to say, you aren’t going to achieve your ambitious goal anyway, so why not fuck around and just do what you want??
+It’s almost like it’s trying to say, you aren’t going to achieve your ambitious goal anyway, so why not mess around and just do what you want??
 
 I hate that. I hate that thought. I hate it very much.
 
@@ -75,13 +75,3 @@ The difference between them (personally), is I will not force myself to do it. I
 That is the best I can do. That is how I think, (at least as of this moment), I will minimize regrets.
 
 Also, [Chainsaw Man](https://mangasee123.com/manga/Chainsaw-Man-Color) is epic. Go give it a read.
-
----
-
-EDIT: 2022-07-08
-
-Yo, fuck that weak shit. Was down as fuck from the last 2 days, read One Piece, and now I’m Back. Fuck that weak shit about ‘trying my best. I am going all in babyy lets goooo!!
-
-It's not going to do me any good if I overthink such a small little thing. It really does not matter in the grand scheme of things. Living in the present, fuck trying to please my future self.
-
-Chainsaw Man really did a number on my self-confidence huh? Still a 10. Will probably not reread it again. Not my favorite story, but certainly one of the best stories of all time.

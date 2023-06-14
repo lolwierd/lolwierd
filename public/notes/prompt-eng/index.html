@@ -35,7 +35,7 @@ Knobs Temperature: higher value -&gt; more deterministic output. lower value -&g
 <meta itemprop="description" content="tested with text-davinci-003 using OpenAI&rsquo;s playground(opens in a new tab) unless otherwise specified. The model uses the default configurations, i.e., temperature=0.7 and top-p=1
 Knobs Temperature: higher value -&gt; more deterministic output. lower value -&gt; more creative output (higher chances of hallucination?). essentially increasing the weights of other possible tokens! as temperature decreases. so obv for fact based questions -&gt; lower temp, for creative tasks -&gt; higher temp Top_p: controls how deterministic the model is at generating responses!">
 
-<meta itemprop="wordCount" content="460"><meta itemprop="image" content="https://lolwierd.pages.dev/media/share.png"/>
+<meta itemprop="wordCount" content="524"><meta itemprop="image" content="https://lolwierd.pages.dev/media/share.png"/>
 <meta itemprop="keywords" content="" />
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
@@ -219,7 +219,7 @@ Knobs Temperature: higher value -&gt; more deterministic output. lower value -&g
         text-decoration: none;
     }
 
-    .alt-link a {
+    a[title="alt-link"] {
         color: #4CA751;
     }
 
@@ -234,11 +234,7 @@ Knobs Temperature: higher value -&gt; more deterministic output. lower value -&g
         padding-inline-start: 8px;
     }
 
-    li:has(input[type=checkbox]) {
-        display: flex;
-        flex-wrap: nowrap;
-        gap: 4px;
-    }
+     
 </style>
 </head>
 
@@ -271,26 +267,6 @@ Knobs Temperature: higher value -&gt; more deterministic output. lower value -&g
 <li>Top_p: controls how deterministic the model is at generating responses! treat almost the same way as temperature.</li>
 </ul>
 <p><strong>The general recommendation is to alter one, not both.</strong></p>
-<a href="#few-shot-prompting" class="header-link">
-    <h3 id="few-shot-prompting">
-        few-shot prompting
-    </h3>
-</a>
-<p>enables in context learning. - ability of llms to learn new tasks given a few demonstrations.<br>
-give context before asking question.</p>
-<pre tabindex="0"><code>Q: &lt;Question&gt;?
-A: &lt;Answer&gt;
-Q: &lt;Question&gt;?
-A: &lt;Answer&gt;
-Q: &lt;Question&gt;?
-A: &lt;Answer&gt;
-Q: &lt;Question&gt;?
-A:
-</code></pre><pre tabindex="0"><code>This is awesome! // Positive
-This is bad! // Negative
-Wow that movie was rad! // Positive
-What a horrible show! //
-</code></pre><p>glean the structure not the specific formats.</p>
 <p>moving ahead with stating the obvious. 🙃</p>
 <p>parts of a prompt</p>
 <ul>
@@ -299,7 +275,7 @@ What a horrible show! //
 <li>Input Data - the input or question that we are interested to find a response for</li>
 <li>Output Indicator - the type or format of the output.</li>
 </ul>
-<p>imma not write obv shit now. waste of time.</p>
+<p>imma not write obv things now. waste of time.</p>
 <p>seperating the prompt into instruction and input helps.<br>
 be precise. concise. dont be clever.</p>
 <pre tabindex="0"><code>Explain the concept prompt engineering. Keep the explanation short, only a few sentences, and don&#39;t be too descriptive.
@@ -329,6 +305,32 @@ Sentiment:
         zero-shot prompting
     </h3>
 </a>
+<p>no context straight question. bigger llms are generally better at this. basically ask questions like you&rsquo;re googling</p>
+<p>instruction tuning improves this in llms. improving this will lead to general acceptance of llms (personal opinion).</p>
+<pre tabindex="0"><code>Classify the text into neutral, negative or positive. 
+
+Text: I think the vacation is okay.
+Sentiment:
+</code></pre><a href="#few-shot-prompting" class="header-link">
+    <h3 id="few-shot-prompting">
+        few-shot prompting
+    </h3>
+</a>
+<p>enables in context learning. - ability of llms to learn new tasks given a few demonstrations.</p>
+<p>try to steer the model to give answers you want (or get better performance), give context before asking question.</p>
+<pre tabindex="0"><code>Q: &lt;Question&gt;?
+A: &lt;Answer&gt;
+Q: &lt;Question&gt;?
+A: &lt;Answer&gt;
+Q: &lt;Question&gt;?
+A: &lt;Answer&gt;
+Q: &lt;Question&gt;?
+A:
+</code></pre><pre tabindex="0"><code>This is awesome! // Positive
+This is bad! // Negative
+Wow that movie was rad! // Positive
+What a horrible show! //
+</code></pre><p>glean the structure not the specific formats.</p>
 
 </content>
 <p>

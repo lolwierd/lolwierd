@@ -31,7 +31,7 @@
 <meta itemprop="name" content="Mental reset">
 <meta itemprop="description" content="things i did, things im bout to do."><meta itemprop="datePublished" content="2022-09-12T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2022-09-12T00:00:00+00:00" />
-<meta itemprop="wordCount" content="1375"><meta itemprop="image" content="https://lolwierd.pages.dev/media/share.png"/>
+<meta itemprop="wordCount" content="1373"><meta itemprop="image" content="https://lolwierd.pages.dev/media/share.png"/>
 <meta itemprop="keywords" content="tech," />
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
@@ -215,7 +215,7 @@
         text-decoration: none;
     }
 
-    .alt-link a {
+    a[title="alt-link"] {
         color: #4CA751;
     }
 
@@ -230,11 +230,7 @@
         padding-inline-start: 8px;
     }
 
-    li:has(input[type=checkbox]) {
-        display: flex;
-        flex-wrap: nowrap;
-        gap: 4px;
-    }
+     
 </style>
 </head>
 
@@ -294,9 +290,9 @@ NOW ITS A <a href="https://joelhooks.com/digital-garden/"  target="_blank" rel="
 <p>Was thinking about wrapping this whole thing up in a simple webpage/API so that I can revalidate my posts by making a visit to a page. Something like revalidate.lolwierd.ml. But I lazied out.</p>
 <p>As of now, this setup works pretty well. I even have a bunch of metadata (like tags, tldr, description) in every notion page which gets added as frontmatter to each post.</p>
 <p>I also moved all my personal services, from nginx to caddy, which took wayyy longer than expected.</p>
-<a href="#how-bout-u-redirect-yourself-to-some-bitches" class="header-link">
-    <h1 id="how-bout-u-redirect-yourself-to-some-bitches">
-        How bout u redirect yourself to some bitches??
+<a href="#how-bout-u-redirect-yourself-to-some-cheese" class="header-link">
+    <h1 id="how-bout-u-redirect-yourself-to-some-cheese">
+        How bout u redirect yourself to some cheese??
     </h1>
 </a>
 <p>Setting up caddy was a breeze, the Caddyfile convention is very straight forward and it comes with some very sane defaults (like auto HTTPS, http/2, etc) so I didn’t need to worry too much.</p>
@@ -305,7 +301,7 @@ NOW ITS A <a href="https://joelhooks.com/digital-garden/"  target="_blank" rel="
 <p>None of them loaded. ERR_TOO_MANY_REDIRECTS in all of them. Now, I knew it was Cloudflare’s fault because who else could it be?</p>
 <p>I disabled automatic HTTPS rewrites and set the SSL/TLS encryption mode to off. Still nothing. Still too many redirects. WTF, I exclaimed audibly. After a bunch of digging, I found out the only way to make this work was to either set Cloudflare SSL/TLS to Full and let them serve their own certificates on the client side or disable the Cloudflare DNS proxy.</p>
 <p>Cloudflare DNS proxy does provide a very useful feature which I need. CDN. So the second solution was a no-go from the get-go. The first one worked.</p>
-<p>This shit took about 4 hours which shouldn’t have taken more than 10 minutes.</p>
+<p>This took about 4 hours which shouldn’t have taken more than 10 minutes.</p>
 <p>There is probably some lesson here about life and its unpredictable nature but it&rsquo;s probably too generalized or too nuanced for me to talk about.</p>
 <p>Also after this, I got 2 more servers (making the total 3) and set up Tailscale ssh on all of them. I like not having to manage private keys. That part was actually easy and took like 5 minutes. Gotta love Tailscale.</p>
 <p>Next, I set out to set up my own mail server!!</p>
@@ -343,7 +339,7 @@ NOW ITS A <a href="https://joelhooks.com/digital-garden/"  target="_blank" rel="
 <p>Brute force seems to be the only way of going at it. Wish me luck. I doubt I would need it though.</p>
 <p>2ez4me.</p>
 <blockquote>
-<p>2022/10/14: turns out i might need that luck after all. i need to stop acting like a fucking chad with 0 work to back it up 🙂.</p>
+<p>2022/10/14: turns out i might need that luck after all. i need to stop acting like a chad with 0 work to back it up 🙂.</p>
 </blockquote>
 
 </content>

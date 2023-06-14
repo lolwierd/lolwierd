@@ -46,7 +46,7 @@ I disabled automatic HTTPS rewrites and set the SSL/TLS encryption mode to off. 
 
 Cloudflare DNS proxy does provide a very useful feature which I need. CDN. So the second solution was a no-go from the get-go. The first one worked.
 
-This shit took about 4 hours which shouldn’t have taken more than 10 minutes.
+This took about 4 hours which shouldn’t have taken more than 10 minutes.
 
 There is probably some lesson here about life and its unpredictable nature but it's probably too generalized or too nuanced for me to talk about.
 
@@ -97,4 +97,4 @@ Brute force seems to be the only way of going at it. Wish me luck. I doubt I wou
 
 2ez4me.
 
-> 2022/10/14: turns out i might need that luck after all. i need to stop acting like a fucking chad with 0 work to back it up 🙂.
+> 2022/10/14: turns out i might need that luck after all. i need to stop acting like a chad with 0 work to back it up 🙂.
