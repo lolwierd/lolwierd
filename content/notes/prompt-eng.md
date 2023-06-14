@@ -7,29 +7,6 @@ _tested with text-davinci-003 using OpenAI's playground(opens in a new tab) unle
 
 **The general recommendation is to alter one, not both.**
 
-### few-shot prompting
-enables in context learning. - ability of llms to learn new tasks given a few demonstrations.
-give context before asking question.
-
-```
-Q: <Question>?
-A: <Answer>
-Q: <Question>?
-A: <Answer>
-Q: <Question>?
-A: <Answer>
-Q: <Question>?
-A:
-```
-
-```
-This is awesome! // Positive
-This is bad! // Negative
-Wow that movie was rad! // Positive
-What a horrible show! //
-```
-
-glean the structure not the specific formats.
 
 moving ahead with stating the obvious. 🙃
 
@@ -84,3 +61,41 @@ Sentiment:
 
 
 ### zero-shot prompting
+
+no context straight question. bigger llms are generally better at this. basically ask questions like you're googling
+
+instruction tuning improves this in llms. improving this will lead to general acceptance of llms (personal opinion).
+
+```
+Classify the text into neutral, negative or positive. 
+
+Text: I think the vacation is okay.
+Sentiment:
+```
+
+### few-shot prompting
+enables in context learning. - ability of llms to learn new tasks given a few demonstrations.
+
+try to steer the model to give answers you want (or get better performance), give context before asking question.
+
+```
+Q: <Question>?
+A: <Answer>
+Q: <Question>?
+A: <Answer>
+Q: <Question>?
+A: <Answer>
+Q: <Question>?
+A:
+```
+
+```
+This is awesome! // Positive
+This is bad! // Negative
+Wow that movie was rad! // Positive
+What a horrible show! //
+```
+
+glean the structure not the specific formats.
+
+
