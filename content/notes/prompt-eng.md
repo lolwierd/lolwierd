@@ -107,6 +107,7 @@ Wow that movie was rad!
 Positive
 What a horrible show! --
 ```
-
+                 
 ### chain of thought prompting
 
+![Chain of Thought Prompting](/media/cot.webp "chain of thought prompting")

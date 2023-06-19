@@ -10,3 +10,4 @@ menu:
 [Illustrated guide to transformer](https://jalammar.github.io/illustrated-transformer/)
 
 [Annotated PyTorch Paper Implementations](https://nn.labml.ai/)
+[Introduction to Text and Code Embeddings in the OpenAI API](https://invidious.tiekoetter.com/watch?v=mnTV_TIkf9M)
