@@ -11,3 +11,6 @@ menu:
 
 [Annotated PyTorch Paper Implementations](https://nn.labml.ai/)
 [Introduction to Text and Code Embeddings in the OpenAI API](https://invidious.tiekoetter.com/watch?v=mnTV_TIkf9M)
+
+### Networking
+- [Redhat- Network interfaces](https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking#bonded_interface)

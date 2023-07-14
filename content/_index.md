@@ -1,11 +1,11 @@
 ### getting better
 
-> shamelessly stole [yacine's](https://yacine.ca/) whole flow
+# week of *
+throwing rough plan out the dooor. got litreally no time for ai. it has to wait for me to get better. it makes me sad to see 0 ticked tasks, but it is what it is, at least i know i gave it a honest shot. workin 7-7 ez gonna get better gonna be the best.
 
-im [late]({{<ref "/notes/late.md">}} "notes")
-
-**rough plan**
-get a tour of the landscape while building the foundational knowledge (mainly linear algebra), then try to get hands on (not building obv, but maybe some fine tuning, developing embeddings, langchain, etc). will decide next steps after i get an overall feel of the area, but ideally would like to get an understanding of how they work next (we'll see how the prior steps go first though 🙃)
+# week of june 12th
+- started a new job, made very slow turtle like progress in linear algebra and prompt engineering. 
+- will need to find time.
 
 # week of june 19th
 _**accelerate!**_
@@ -31,7 +31,3 @@ ok wtf just realised before diving into AI i need to learn linear algebra. that 
 ---
 * [ ] skim and recognize holes [LLM Introduction: Learn Language Models](https://gist.github.com/rain-1/eebd5e5eb2784feecf450324e3341c8d)
 * [ ] skim and recognize holes [swyxio/ai-notes](https://github.com/swyxio/ai-notes/tree/main#top-ai-reads)
-
-# week of june 12th
-- started a new job, made very slow turtle like progress in linear algebra and prompt engineering. 
-- will need to find time.
