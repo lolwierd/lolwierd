@@ -18,6 +18,12 @@ i have time now, back on the grind. have a lot to catch up, lfg.
 ---
 * [ ] watch [State of GPT](https://www.youtube.com/watch?v=bZQun8Y4L2A) (its ok if no understand, will come back to this. 1st watch mostly for getting a feel)
 
+<br>
+<br>
+
+---
+---
+kind of a restart ^^^
 
 # ~~week of *~~
 ~~throwing rough plan out the dooor. got litreally no time for ai. it has to wait for me to get better. it makes me sad to see 0 ticked tasks, but it is what it is, at least i know i gave it a honest shot. workin 7-7 ez gonna get better gonna be the best.~~
