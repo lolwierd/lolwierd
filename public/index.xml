@@ -67,7 +67,20 @@ Knobs Temperature: higher value -&amp;gt; more deterministic output. lower value
       
       <guid>https://lolwierd.pages.dev/about/</guid>
       <description>i like backend and system design
+platform @VaultCI
 GitHub </description>
+    </item>
+    
+    <item>
+      <title>reading</title>
+      <link>https://lolwierd.pages.dev/reading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lolwierd.pages.dev/reading/</guid>
+      <description>Books i really want to learn more about history rn. i feel like i dont know enough and i should. starting with biographies of cool people from history.
+also getting an overall feel for the timeline from yt vids and articles.
+Also i haven&amp;rsquo;t really read the western classics when i was small. I was reading panchtantra, aesops fables and all. So thats on my mind too.
+Alexander of Macedon, Peter Green The Hitchhikers Guide to the Galaxy [1] Papers SQLite: Past, Present, and Future got the recc from twitter.</description>
     </item>
     
     <item>
@@ -76,7 +89,7 @@ GitHub </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lolwierd.pages.dev/resources/</guid>
-      <description> reading list Illustrated guide to transformer Annotated PyTorch Paper Implementations </description>
+      <description> cool links Illustrated guide to transformer Annotated PyTorch Paper Implementations Introduction to Text and Code Embeddings in the OpenAI API Networking Redhat- Network interfaces </description>
     </item>
     
   </channel>

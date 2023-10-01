@@ -35,7 +35,7 @@ Knobs Temperature: higher value -&gt; more deterministic output. lower value -&g
 <meta itemprop="description" content="tested with text-davinci-003 using OpenAI&rsquo;s playground(opens in a new tab) unless otherwise specified. The model uses the default configurations, i.e., temperature=0.7 and top-p=1
 Knobs Temperature: higher value -&gt; more deterministic output. lower value -&gt; more creative output (higher chances of hallucination?). essentially increasing the weights of other possible tokens! as temperature decreases. so obv for fact based questions -&gt; lower temp, for creative tasks -&gt; higher temp Top_p: controls how deterministic the model is at generating responses!">
 
-<meta itemprop="wordCount" content="524"><meta itemprop="image" content="https://lolwierd.pages.dev/media/share.png"/>
+<meta itemprop="wordCount" content="558"><meta itemprop="image" content="https://lolwierd.pages.dev/media/share.png"/>
 <meta itemprop="keywords" content="" />
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
@@ -172,7 +172,7 @@ Knobs Temperature: higher value -&gt; more deterministic output. lower value -&g
 
     @media (prefers-color-scheme: dark) {
         body {
-            background-color: #333;
+            background-color: #000;
             color: #ddd;
         }
 
@@ -247,6 +247,8 @@ Knobs Temperature: higher value -&gt; more deterministic output. lower value -&g
 <a href="/blog/">blog</a>
 
 <a href="/resources/">resources</a>
+
+<a href="/reading/">reading</a>
 
 <a href="/about/">about</a>
 
@@ -331,6 +333,18 @@ This is bad! // Negative
 Wow that movie was rad! // Positive
 What a horrible show! //
 </code></pre><p>glean the structure not the specific formats.</p>
+<p>cool thing is in modern llms something like this works too.</p>
+<pre tabindex="0"><code>Positive This is awesome! 
+This is bad! Negative
+Wow that movie was rad!
+Positive
+What a horrible show! --
+</code></pre><a href="#chain-of-thought-prompting" class="header-link">
+    <h3 id="chain-of-thought-prompting">
+        chain of thought prompting
+    </h3>
+</a>
+<p><img src="/media/cot.webp" alt="Chain of Thought Prompting" title="chain of thought prompting"></p>
 
 </content>
 <p>
