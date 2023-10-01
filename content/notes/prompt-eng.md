@@ -1,5 +1,3 @@
-_tested with text-davinci-003 using OpenAI's playground(opens in a new tab) unless otherwise specified. The model uses the default configurations, i.e., temperature=0.7 and top-p=1_
-
 ### Knobs
 
 - Temperature: higher value -> more deterministic output. lower value -> more creative output (_higher chances of hallucination?_). **essentially increasing the weights of other possible tokens!** as temperature decreases. so obv _**for fact based questions -> lower temp, for creative tasks -> higher temp**_
@@ -74,9 +72,13 @@ Sentiment:
 ```
 
 ### few-shot prompting
+basically give a few examples to the llm on how to solve the problem.
+
 enables in context learning. - ability of llms to learn new tasks given a few demonstrations.
 
 try to steer the model to give answers you want (or get better performance), give context before asking question.
+
+not great for reasoning problems, but pretty good for use in labelling data.
 
 ```
 Q: <Question>?
@@ -111,3 +113,29 @@ What a horrible show! --
 ### chain of thought prompting
 
 ![Chain of Thought Prompting](/media/cot.webp "chain of thought prompting")
+
+Bascially improve the reasoning capablities lacking in few shot prompting.
+
+extend the few shot examples with intermediary steps of reasoning.
+It boots llms capabilities at reasoning tasks.
+the authors claim that this is an emergent ability that arises with sufficiently large language models.
+[paper](https://arxiv.org/abs/2201.11903)
+
+### Zero shot COT prompting
+![Zero shot COT prompting](/media/zero-cot.webp "zero-shot cot prompting")
+
+basically zero shot but when reasoning fails, add "Lets think about this step by step" and it bolsters the models ability on reasoning tasks.
+[paper](https://arxiv.org/pdf/2205.11916.pdf)
+
+### Auto COT prompting
+![Auto COT prompting](/media/auto-cot.webp "auto cot prompting")
+
+says that zero-shot cot ain't that good. so what we do is we use zero-shot cot to generate few-shot examples and use cot to get the answer for the intended reasoning question.
+
+the main point is diversity of questions used in few shot examples is very important to mitigate faulty reasoning.
+[paper](https://arxiv.org/pdf/2210.03493.pdf)
+
+### Self-Consistency
+
+
+
