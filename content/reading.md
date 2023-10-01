@@ -6,9 +6,9 @@ menu:
 ---
 
 # Books
-i really want to learn more about history rn. i feel like i dont know enough and i should. starting with biographies of cool people from history.
-also getting an overall feel for the timeline from yt vids and articles.
-Also i haven't really read the western classics when i was small. I was reading panchtantra, aesops fables and all. So thats on my mind too.
+i really want to learn more about history. i feel like i dont know enough and i should. starting with biographies of cool people.
+also getting an overall feel for the historical timeline including prehistory from yt vids and articles.
+Also i haven't really read the western classics when i was small. they had panchtantra, aesops fables and all at my library. So thats on my mind too.
 
 ## [Alexander of Macedon, Peter Green](https://archive.org/details/in.ernet.dli.2015.226469/mode/2up)
 
@@ -16,7 +16,7 @@ Also i haven't really read the western classics when i was small. I was reading 
 
 # Papers
 ## [SQLite: Past, Present, and Future](https://www.vldb.org/pvldb/vol15/p3535-gaffney.pdf)
-got the recc from twitter. started reading it like a week ago and haven't touched it since. need to get back on it.
+got the rec from twitter. started reading it like a week ago and haven't touched it since. need to get back on it.
 
 ## [Out of the Tar Pit](https://curtclifton.net/papers/MoseleyMarks06a.pdf)
 a hefty boi. read like 2 sections. reads like a history lesson. bunch of things i knew, made a bunch of connections.
@@ -24,7 +24,7 @@ a hefty boi. read like 2 sections. reads like a history lesson. bunch of things 
 ---
 
 ## [Gorilla: A Fast, Scalable, In-Memory Time Series Database](https://www.vldb.org/pvldb/vol8/p1816-teller.pdf)
-Cool paper. The interesting part was their compression algorithm and their in memory DS. Read it as part of my work, but figured halfway we can't allow of its core assumptions which makes the compression algorithm soo effective.
+Cool paper. The interesting part was their compression algorithm and their in memory DS. Read it as a part of my work, but figured halfway we can't allow one of its core assumptions which makes the compression algorithm soo effective.
 [Clickhouse has an implementation of this internally.](https://altinity.com/blog/2019-7-new-encodings-to-improve-clickhouse)
 
 ## [What goes around comes around](https://people.cs.umass.edu/~yanlei/courses/CS691LL-f06/papers/SH05.pdf)
