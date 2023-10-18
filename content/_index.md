@@ -1,8 +1,5 @@
 ### getting better
 
-# week of october 2nd
-_**we're soo back**_
-
 i have time now, back on the grind. have a lot to catch up, lfg.
 
 * [ ] read [Waterfall diagrams and relative odds](https://arbital.com/p/bayes_waterfall_diagram/?l=1x1&pathId=93949)
