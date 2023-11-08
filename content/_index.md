@@ -1,26 +1,8 @@
 ### getting better
 
-i have time now, back on the grind. have a lot to catch up, lfg.
-
-* [ ] read [Waterfall diagrams and relative odds](https://arbital.com/p/bayes_waterfall_diagram/?l=1x1&pathId=93949)
-* [ ] finish watching [3B1B: Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab). [notes]({{<ref "/notes/3b1b-la.md">}} "notes") 
+tried a restart, didn't work. focusing on work rn. still trying to be keep up with things happening in the field, but not in a way i can participate actively.  makes me kinda mad, will try to figure something out. 
 
 ---
-* [ ] read [Prompt Engineering Guide](https://www.promptingguide.ai/). [notes]({{<ref "/notes/prompt-eng.md">}} "notes")
-* [ ] read [The Complete Beginners Guide To Autonomous Agents](https://www.mattprd.com/p/the-complete-beginners-guide-to-autonomous-agents) 
-* [ ] read [What Is ChatGPT Doing, and Why Does It Work?—Stephen Wolfram Writings](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
-* [ ] read [What are embeddings?](https://vickiboykis.com/what_are_embeddings/)
-* [ ] read [How to train your own Large Language Models](https://blog.replit.com/llm-training)
-
----
-* [ ] watch [State of GPT](https://www.youtube.com/watch?v=bZQun8Y4L2A) (its ok if no understand, will come back to this. 1st watch mostly for getting a feel)
-
-<br>
-<br>
-
----
----
-kind of a restart ^^^
 
 # ~~week of *~~
 ~~throwing rough plan out the dooor. got litreally no time for ai. it has to wait for me to get better. it makes me sad to see 0 ticked tasks, but it is what it is, at least i know i gave it a honest shot. workin 7-7 ez gonna get better gonna be the best.~~

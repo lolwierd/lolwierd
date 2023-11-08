@@ -2,39 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes on lolwierd</title>
-    <link>https://lolwierd.pages.dev/notes/</link>
+    <link>https://lolwierd.com/notes/</link>
     <description>Recent content in Notes on lolwierd</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="https://lolwierd.pages.dev/notes/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language>
+    <atom:link href="https://lolwierd.com/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://lolwierd.pages.dev/notes/3b1b-la/</link>
+      <link>https://lolwierd.com/notes/3b1b-la/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lolwierd.pages.dev/notes/3b1b-la/</guid>
+      <guid>https://lolwierd.com/notes/3b1b-la/</guid>
       <description>3B1B: Essence of Linear Algebra 1: Vectors 3 main ideas surrounding vectors.
 vectors - arrows pointing in space - has length and directon position does not matter can be 2D and 3D. vectors - ordered list of numbers - i.e vector fancy word for list last one i dont resonate with but here it is regardless. i dont really get it ig.
 vectors - can be anything as long as there is an addition and a multiplication operation possible.</description>
     </item>
-    
     <item>
       <title></title>
-      <link>https://lolwierd.pages.dev/notes/late/</link>
+      <link>https://lolwierd.com/notes/late/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lolwierd.pages.dev/notes/late/</guid>
+      <guid>https://lolwierd.com/notes/late/</guid>
       <description> im late </description>
     </item>
-    
     <item>
       <title></title>
-      <link>https://lolwierd.pages.dev/notes/prompt-eng/</link>
+      <link>https://lolwierd.com/notes/prompt-eng/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lolwierd.pages.dev/notes/prompt-eng/</guid>
-      <description>tested with text-davinci-003 using OpenAI&amp;rsquo;s playground(opens in a new tab) unless otherwise specified. The model uses the default configurations, i.e., temperature=0.7 and top-p=1
-Knobs Temperature: higher value -&amp;gt; more deterministic output. lower value -&amp;gt; more creative output (higher chances of hallucination?). essentially increasing the weights of other possible tokens! as temperature decreases. so obv for fact based questions -&amp;gt; lower temp, for creative tasks -&amp;gt; higher temp Top_p: controls how deterministic the model is at generating responses!</description>
+      <guid>https://lolwierd.com/notes/prompt-eng/</guid>
+      <description>Knobs Temperature: higher value -&amp;gt; more deterministic output. lower value -&amp;gt; more creative output (higher chances of hallucination?). essentially increasing the weights of other possible tokens! as temperature decreases. so obv for fact based questions -&amp;gt; lower temp, for creative tasks -&amp;gt; higher temp Top_p: controls how deterministic the model is at generating responses! treat almost the same way as temperature. The general recommendation is to alter one, not both.</description>
     </item>
-    
   </channel>
 </rss>

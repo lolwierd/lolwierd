@@ -7,35 +7,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>lolwierd</title>
 <meta name="title" content="lolwierd" />
-<meta name="description" content="tested with text-davinci-003 using OpenAI&rsquo;s playground(opens in a new tab) unless otherwise specified. The model uses the default configurations, i.e., temperature=0.7 and top-p=1
-Knobs Temperature: higher value -&gt; more deterministic output. lower value -&gt; more creative output (higher chances of hallucination?). essentially increasing the weights of other possible tokens! as temperature decreases. so obv for fact based questions -&gt; lower temp, for creative tasks -&gt; higher temp Top_p: controls how deterministic the model is at generating responses!" />
+<meta name="description" content="Knobs Temperature: higher value -&gt; more deterministic output. lower value -&gt; more creative output (higher chances of hallucination?). essentially increasing the weights of other possible tokens! as temperature decreases. so obv for fact based questions -&gt; lower temp, for creative tasks -&gt; higher temp Top_p: controls how deterministic the model is at generating responses! treat almost the same way as temperature. The general recommendation is to alter one, not both." />
 <meta name="keywords" content="" />
 
 
 <meta property="og:title" content="" />
-<meta property="og:description" content="tested with text-davinci-003 using OpenAI&rsquo;s playground(opens in a new tab) unless otherwise specified. The model uses the default configurations, i.e., temperature=0.7 and top-p=1
-Knobs Temperature: higher value -&gt; more deterministic output. lower value -&gt; more creative output (higher chances of hallucination?). essentially increasing the weights of other possible tokens! as temperature decreases. so obv for fact based questions -&gt; lower temp, for creative tasks -&gt; higher temp Top_p: controls how deterministic the model is at generating responses!" />
+<meta property="og:description" content="Knobs Temperature: higher value -&gt; more deterministic output. lower value -&gt; more creative output (higher chances of hallucination?). essentially increasing the weights of other possible tokens! as temperature decreases. so obv for fact based questions -&gt; lower temp, for creative tasks -&gt; higher temp Top_p: controls how deterministic the model is at generating responses! treat almost the same way as temperature. The general recommendation is to alter one, not both." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://lolwierd.pages.dev/notes/prompt-eng/" /><meta property="og:image" content="https://lolwierd.pages.dev/media/share.png"/><meta property="article:section" content="notes" />
+<meta property="og:url" content="https://lolwierd.com/notes/prompt-eng/" /><meta property="og:image" content="https://lolwierd.com/media/share.png"/><meta property="article:section" content="notes" />
 
 <meta property="og:site_name" content="getting better" />
 
 
 
+
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://lolwierd.pages.dev/media/share.png"/>
+<meta name="twitter:image" content="https://lolwierd.com/media/share.png"/>
 
 <meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="tested with text-davinci-003 using OpenAI&rsquo;s playground(opens in a new tab) unless otherwise specified. The model uses the default configurations, i.e., temperature=0.7 and top-p=1
-Knobs Temperature: higher value -&gt; more deterministic output. lower value -&gt; more creative output (higher chances of hallucination?). essentially increasing the weights of other possible tokens! as temperature decreases. so obv for fact based questions -&gt; lower temp, for creative tasks -&gt; higher temp Top_p: controls how deterministic the model is at generating responses!"/>
+<meta name="twitter:description" content="Knobs Temperature: higher value -&gt; more deterministic output. lower value -&gt; more creative output (higher chances of hallucination?). essentially increasing the weights of other possible tokens! as temperature decreases. so obv for fact based questions -&gt; lower temp, for creative tasks -&gt; higher temp Top_p: controls how deterministic the model is at generating responses! treat almost the same way as temperature. The general recommendation is to alter one, not both."/>
 
 
 
 <meta itemprop="name" content="">
-<meta itemprop="description" content="tested with text-davinci-003 using OpenAI&rsquo;s playground(opens in a new tab) unless otherwise specified. The model uses the default configurations, i.e., temperature=0.7 and top-p=1
-Knobs Temperature: higher value -&gt; more deterministic output. lower value -&gt; more creative output (higher chances of hallucination?). essentially increasing the weights of other possible tokens! as temperature decreases. so obv for fact based questions -&gt; lower temp, for creative tasks -&gt; higher temp Top_p: controls how deterministic the model is at generating responses!">
+<meta itemprop="description" content="Knobs Temperature: higher value -&gt; more deterministic output. lower value -&gt; more creative output (higher chances of hallucination?). essentially increasing the weights of other possible tokens! as temperature decreases. so obv for fact based questions -&gt; lower temp, for creative tasks -&gt; higher temp Top_p: controls how deterministic the model is at generating responses! treat almost the same way as temperature. The general recommendation is to alter one, not both.">
 
-<meta itemprop="wordCount" content="558"><meta itemprop="image" content="https://lolwierd.pages.dev/media/share.png"/>
+<meta itemprop="wordCount" content="691"><meta itemprop="image" content="https://lolwierd.com/media/share.png"/>
 <meta itemprop="keywords" content="" />
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
@@ -171,6 +168,10 @@ Knobs Temperature: higher value -&gt; more deterministic output. lower value -&g
     }
 
     @media (prefers-color-scheme: dark) {
+        * {
+            color-scheme: dark;
+        }
+
         body {
             background-color: #000;
             color: #ddd;
@@ -193,7 +194,7 @@ Knobs Temperature: higher value -&gt; more deterministic output. lower value -&g
         }
 
         code {
-            background-color: #777;
+            background-color: #222;
         }
 
         pre code {
@@ -236,7 +237,13 @@ Knobs Temperature: higher value -&gt; more deterministic output. lower value -&g
 
      
 </style>
-</head>
+<script type="text/javascript">
+  (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+  })(window, document, "clarity", "script", "jcg9gkbk3q");
+</script></head>
 
 <body>
   <header><a href="/" class="title">
@@ -258,8 +265,7 @@ Knobs Temperature: higher value -&gt; more deterministic output. lower value -&g
   <main>
 
 <content>
-  <p><em>tested with text-davinci-003 using OpenAI&rsquo;s playground(opens in a new tab) unless otherwise specified. The model uses the default configurations, i.e., temperature=0.7 and top-p=1</em></p>
-<a href="#knobs" class="header-link">
+  <a href="#knobs" class="header-link">
     <h3 id="knobs">
         Knobs
     </h3>
@@ -318,8 +324,10 @@ Sentiment:
         few-shot prompting
     </h3>
 </a>
+<p>basically give a few examples to the llm on how to solve the problem.</p>
 <p>enables in context learning. - ability of llms to learn new tasks given a few demonstrations.</p>
 <p>try to steer the model to give answers you want (or get better performance), give context before asking question.</p>
+<p>not great for reasoning problems, but pretty good for use in labelling data.</p>
 <pre tabindex="0"><code>Q: &lt;Question&gt;?
 A: &lt;Answer&gt;
 Q: &lt;Question&gt;?
@@ -345,6 +353,36 @@ What a horrible show! --
     </h3>
 </a>
 <p><img src="/media/cot.webp" alt="Chain of Thought Prompting" title="chain of thought prompting"></p>
+<p>Bascially improve the reasoning capablities lacking in few shot prompting.</p>
+<p>extend the few shot examples with intermediary steps of reasoning.<br>
+It boots llms capabilities at reasoning tasks.<br>
+the authors claim that this is an emergent ability that arises with sufficiently large language models.<br>
+<a href="https://arxiv.org/abs/2201.11903"  target="_blank" rel="nofollow noopener noreferrer" >paper</a>
+</p>
+<a href="#zero-shot-cot-prompting" class="header-link">
+    <h3 id="zero-shot-cot-prompting">
+        Zero shot COT prompting
+    </h3>
+</a>
+<p><img src="/media/zero-cot.webp" alt="Zero shot COT prompting" title="zero-shot cot prompting"></p>
+<p>basically zero shot but when reasoning fails, add &ldquo;Lets think about this step by step&rdquo; and it bolsters the models ability on reasoning tasks.<br>
+<a href="https://arxiv.org/pdf/2205.11916.pdf"  target="_blank" rel="nofollow noopener noreferrer" >paper</a>
+</p>
+<a href="#auto-cot-prompting" class="header-link">
+    <h3 id="auto-cot-prompting">
+        Auto COT prompting
+    </h3>
+</a>
+<p><img src="/media/auto-cot.webp" alt="Auto COT prompting" title="auto cot prompting"></p>
+<p>says that zero-shot cot ain&rsquo;t that good. so what we do is we use zero-shot cot to generate few-shot examples and use cot to get the answer for the intended reasoning question.</p>
+<p>the main point is diversity of questions used in few shot examples is very important to mitigate faulty reasoning.<br>
+<a href="https://arxiv.org/pdf/2210.03493.pdf"  target="_blank" rel="nofollow noopener noreferrer" >paper</a>
+</p>
+<a href="#self-consistency" class="header-link">
+    <h3 id="self-consistency">
+        Self-Consistency
+    </h3>
+</a>
 
 </content>
 <p>

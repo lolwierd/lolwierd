@@ -2,95 +2,78 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>lolwierd</title>
-    <link>https://lolwierd.pages.dev/</link>
+    <link>https://lolwierd.com/</link>
     <description>Recent content on lolwierd</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 12 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lolwierd.pages.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lolwierd.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mental reset</title>
-      <link>https://lolwierd.pages.dev/mental-reset/</link>
+      <link>https://lolwierd.com/mental-reset/</link>
       <pubDate>Mon, 12 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://lolwierd.pages.dev/mental-reset/</guid>
+      <guid>https://lolwierd.com/mental-reset/</guid>
       <description>Mental Reset In the time period between my last post and this, I did a bunch of things. Some of them dumb, some of them cool and most of them unnecessary. I’m proud of all of them nonetheless (but ofc I won’t talk about the dumb ones)
 I learned go. It is a pleasant language. Not amazing, not bad, good. Using go, I then proceeded to redo the backend of this blog.</description>
     </item>
-    
     <item>
       <title>Two ways to live</title>
-      <link>https://lolwierd.pages.dev/two-ways-to-live/</link>
+      <link>https://lolwierd.com/two-ways-to-live/</link>
       <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://lolwierd.pages.dev/two-ways-to-live/</guid>
+      <guid>https://lolwierd.com/two-ways-to-live/</guid>
       <description>As far as I understand, there are 2 ways to live.
 [!note]
 ik False Dilemma . But bear with me I wrote this a while ago and I swear I have somthing to say.
 With ambition and without ambition. With dreams, like every other shonen protagonist and like Denji.
 I am halfway through Chainsaw Man , and it has moved me to an extent where I am forced to rethink how I view my life as a whole.</description>
     </item>
-    
     <item>
       <title></title>
-      <link>https://lolwierd.pages.dev/notes/3b1b-la/</link>
+      <link>https://lolwierd.com/notes/3b1b-la/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lolwierd.pages.dev/notes/3b1b-la/</guid>
+      <guid>https://lolwierd.com/notes/3b1b-la/</guid>
       <description>3B1B: Essence of Linear Algebra 1: Vectors 3 main ideas surrounding vectors.
 vectors - arrows pointing in space - has length and directon position does not matter can be 2D and 3D. vectors - ordered list of numbers - i.e vector fancy word for list last one i dont resonate with but here it is regardless. i dont really get it ig.
 vectors - can be anything as long as there is an addition and a multiplication operation possible.</description>
     </item>
-    
     <item>
       <title></title>
-      <link>https://lolwierd.pages.dev/notes/late/</link>
+      <link>https://lolwierd.com/notes/late/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lolwierd.pages.dev/notes/late/</guid>
+      <guid>https://lolwierd.com/notes/late/</guid>
       <description> im late </description>
     </item>
-    
     <item>
       <title></title>
-      <link>https://lolwierd.pages.dev/notes/prompt-eng/</link>
+      <link>https://lolwierd.com/notes/prompt-eng/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lolwierd.pages.dev/notes/prompt-eng/</guid>
-      <description>tested with text-davinci-003 using OpenAI&amp;rsquo;s playground(opens in a new tab) unless otherwise specified. The model uses the default configurations, i.e., temperature=0.7 and top-p=1
-Knobs Temperature: higher value -&amp;gt; more deterministic output. lower value -&amp;gt; more creative output (higher chances of hallucination?). essentially increasing the weights of other possible tokens! as temperature decreases. so obv for fact based questions -&amp;gt; lower temp, for creative tasks -&amp;gt; higher temp Top_p: controls how deterministic the model is at generating responses!</description>
+      <guid>https://lolwierd.com/notes/prompt-eng/</guid>
+      <description>Knobs Temperature: higher value -&amp;gt; more deterministic output. lower value -&amp;gt; more creative output (higher chances of hallucination?). essentially increasing the weights of other possible tokens! as temperature decreases. so obv for fact based questions -&amp;gt; lower temp, for creative tasks -&amp;gt; higher temp Top_p: controls how deterministic the model is at generating responses! treat almost the same way as temperature. The general recommendation is to alter one, not both.</description>
     </item>
-    
     <item>
       <title>about</title>
-      <link>https://lolwierd.pages.dev/about/</link>
+      <link>https://lolwierd.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lolwierd.pages.dev/about/</guid>
+      <guid>https://lolwierd.com/about/</guid>
       <description>i like backend and system design
 platform @VaultCI
 GitHub </description>
     </item>
-    
     <item>
       <title>reading</title>
-      <link>https://lolwierd.pages.dev/reading/</link>
+      <link>https://lolwierd.com/reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lolwierd.pages.dev/reading/</guid>
-      <description>Books i really want to learn more about history rn. i feel like i dont know enough and i should. starting with biographies of cool people from history.
-also getting an overall feel for the timeline from yt vids and articles.
-Also i haven&amp;rsquo;t really read the western classics when i was small. I was reading panchtantra, aesops fables and all. So thats on my mind too.
-Alexander of Macedon, Peter Green The Hitchhikers Guide to the Galaxy [1] Papers SQLite: Past, Present, and Future got the recc from twitter.</description>
+      <guid>https://lolwierd.com/reading/</guid>
+      <description>Books i really want to learn more about history. i feel like i dont know enough and i should. starting with biographies of cool people.
+also getting an overall feel for the historical timeline including prehistory from yt vids and articles.
+Also i haven&amp;rsquo;t really read the western classics when i was small. they had panchtantra, aesops fables and all at my library. So thats on my mind too.</description>
     </item>
-    
     <item>
       <title>resources</title>
-      <link>https://lolwierd.pages.dev/resources/</link>
+      <link>https://lolwierd.com/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lolwierd.pages.dev/resources/</guid>
+      <guid>https://lolwierd.com/resources/</guid>
       <description> cool links Illustrated guide to transformer Annotated PyTorch Paper Implementations Introduction to Text and Code Embeddings in the OpenAI API Networking Redhat- Network interfaces </description>
     </item>
-    
   </channel>
 </rss>
