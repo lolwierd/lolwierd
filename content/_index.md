@@ -1,3 +1,4 @@
+**curently learning: cloud-init, packer, qemu, firecracker**
 ### getting better
 
 tried a restart, didn't work. focusing on work rn. still trying to be keep up with things happening in the field, but not in a way i can participate actively.  makes me kinda mad, will try to figure something out. 
