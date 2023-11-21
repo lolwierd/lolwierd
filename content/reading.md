@@ -10,12 +10,10 @@ i really want to learn more about history. i feel like i dont know enough and i 
 ~~also getting an overall feel for the historical timeline including prehistory from yt vids and articles.~~
 Also i haven't really read the western classics when i was small. they had panchtantra, aesops fables and all at my library. So thats on my mind too.
 
-### [Writing An Interpreter In Go](https://interpreterbook.com) [github](https://github.com/LOLwierd/monkey-go "alt-link")
-
 ### [Alexander of Macedon, Peter Green](https://archive.org/details/in.ernet.dli.2015.226469/mode/2up)
 
-## Papers
-Slacking quite a bit here.
+## Papers 
+~~Slacking quite a bit here~~. pretty much on pause tbh.
 ### [SQLite: Past, Present, and Future](https://www.vldb.org/pvldb/vol15/p3535-gaffney.pdf)
 got the rec from twitter. started reading it like a week ago and haven't touched it since. need to get back on it.
 

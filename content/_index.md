@@ -1,38 +1,18 @@
-**curently learning: cloud-init, packer, qemu, firecracker**
+**curently learning: qemu, ML/DL**
 ### getting better
 
-tried a restart, didn't work. focusing on work rn. still trying to be keep up with things happening in the field, but not in a way i can participate actively.  makes me kinda mad, will try to figure something out. 
+made some time. got really inspired by [this,](https://blog.gregbrockman.com/how-i-became-a-machine-learning-practitioner) i know a little but dont rellly know how much i know so, starting fresh. maybe im late, but idc ill just start.
 
----
+i dont really get the difference between ML and DL, so for now ill assume ML is just statistics and DL is how to make machines think. also not jotting notes here, ill use a pen and paper for once. istg im not giving up again.
 
-# ~~week of *~~
-~~throwing rough plan out the dooor. got litreally no time for ai. it has to wait for me to get better. it makes me sad to see 0 ticked tasks, but it is what it is, at least i know i gave it a honest shot. workin 7-7 ez gonna get better gonna be the best.~~
+- [ ] [Deep Learning Book](https://www.deeplearningbook.org) (1: Introduction)
+- [ ] [3b1b Neural Networks](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 
-# ~~week of june 12th~~
-- ~~started a new job, made very slow turtle like progress in linear algebra and prompt engineering.~~
-- ~~will need to find time.~~
+--- 
 
-# ~~week of june 19th~~
-_**accelerate!**_
+- [ ] [Fast.ai Practical Deep Learning for coders.](https://course.fast.ai/Lessons/lesson1.html) dont know when ill start this probably after i have made good progress/feel comfortable with the book
 
-~~* [ ] read [Waterfall diagrams and relative odds](https://arbital.com/p/bayes_waterfall_diagram/?l=1x1&pathId=93949)~~
+- [ ] [Visual Information Theory.](https://colah.github.io/posts/2015-09-Visual-Information) After ive done da meth
 
-~~ok wtf just realised before diving into AI i need to learn linear algebra. that slows me down considerably.~~
-~~* [ ] finish watching [3B1B: Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) (maybe if i finish this i can go through the course parallely or skip it altogether 🤷 ). [notes]({{<ref "/notes/3b1b-la.md">}} "notes")~~
-~~* [ ] start watching [MIT 18.06 Linear Algebra, Spring 2005](https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8) (figure out if i can go through this parallely. _if not this will add weeks!_ figure out a shortcut! if no exist shortcut me big sad).~~
+dont really have seperate resources for da meth, will pick it up as i go. i was decent at it in school, i should be fine (this better not come bite me afterwards)
 
----
-~~* [ ] chill watch [Neural networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) (no need to take notes, more of a revision)~~
-
----
-~~* [ ] read [Prompt Engineering Guide](https://www.promptingguide.ai/). [notes]({{<ref "/notes/prompt-eng.md">}} "notes")~~
-~~* [ ] read [The Complete Beginners Guide To Autonomous Agents](https://www.mattprd.com/p/the-complete-beginners-guide-to-autonomous-agents) ~~
-~~* [ ] read [What Is ChatGPT Doing, and Why Does It Work?—Stephen Wolfram Writings](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)~~
-~~* [ ] read [What are embeddings?](https://vickiboykis.com/what_are_embeddings/)~~
-~~* [ ] read [How to train your own Large Language Models](https://blog.replit.com/llm-training)~~
-~~* [ ] watch [State of GPT](https://www.youtube.com/watch?v=bZQun8Y4L2A) (its ok if no understand will come back to this. 1st watch mostly for getting a feel)~~
-
-
----
-~~* [ ] skim and recognize holes [LLM Introduction: Learn Language Models](https://gist.github.com/rain-1/eebd5e5eb2784feecf450324e3341c8d)~~
-~~* [ ] skim and recognize holes [swyxio/ai-notes](https://github.com/swyxio/ai-notes/tree/main#top-ai-reads)~~
