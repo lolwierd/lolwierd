@@ -6,7 +6,7 @@ made some time. got really inspired by [this,](https://blog.gregbrockman.com/how
 i dont really get the difference between ML and DL, so for now ill assume ML is just statistics and DL is how to make machines think. also not jotting notes here, ill use a pen and paper for once. istg im not giving up again.
 
 - [ ] [Deep Learning Book](https://www.deeplearningbook.org) (1: Introduction)
-- [ ] [3b1b Neural Networks](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+- [x] [3b1b Neural Networks](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 
 --- 
 
