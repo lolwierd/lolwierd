@@ -6,11 +6,8 @@ menu:
 ---
 
 ## Books
-i really want to learn more about history. i feel like i dont know enough and i should. starting with biographies of cool people.
-~~also getting an overall feel for the historical timeline including prehistory from yt vids and articles.~~
-Also i haven't really read the western classics when i was small. they had panchtantra, aesops fables and all at my library. So thats on my mind too.
 
-### [Alexander of Macedon, Peter Green](https://archive.org/details/in.ernet.dli.2015.226469/mode/2up)
+### [The Systems View of Life: A Unifying Vision](https://www.cambridge.org/core/books/systems-view-of-life/35186BA5B12161E469C4224B6076ADFE)
 
 ## Papers 
 ~~Slacking quite a bit here~~. pretty much on pause tbh.
