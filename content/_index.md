@@ -8,6 +8,7 @@ i dont really get the difference between ML and DL, so for now ill assume ML is 
 - [ ] [_MIT: Intro to Deep Learning_](http://introtodeeplearning.com) **EVALUATE**
 - [ ] [Deep Learning Book](https://www.deeplearningbook.org) (2: Linear Algebra)
 - [ ] [3b1b Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+- [ ] [Karpathy: Intro to Large Language Models](https://www.youtube.com/watch?v=zjkBMFhNj_g)
 - [x] ~~[3b1b Neural Networks](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)~~
 
 --- 
