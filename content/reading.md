@@ -9,6 +9,10 @@ menu:
 
 ### [The Systems View of Life: A Unifying Vision](https://www.cambridge.org/core/books/systems-view-of-life/35186BA5B12161E469C4224B6076ADFE)
 
+i'll try and do something very ambitious.
+
+### [The Art of Computer Programming](https://www-cs-faculty.stanford.edu/~knuth/taocp.html)
+
 ## Papers 
 ~~Slacking quite a bit here~~. pretty much on pause tbh.
 ### [SQLite: Past, Present, and Future](https://www.vldb.org/pvldb/vol15/p3535-gaffney.pdf)
