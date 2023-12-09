@@ -12,6 +12,7 @@ menu:
 i'll try and do something very ambitious.
 
 ### [The Art of Computer Programming](https://www-cs-faculty.stanford.edu/~knuth/taocp.html)
+> yaa i get why this is supposed to be hard.
 
 ## Papers 
 ~~Slacking quite a bit here~~. pretty much on pause tbh.

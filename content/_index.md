@@ -1,7 +1,7 @@
 **curently learning: qemu, ML/DL**
 ### getting better
 
-made some time. got really inspired by [this,](https://blog.gregbrockman.com/how-i-became-a-machine-learning-practitioner) i know a little but dont rellly know how much i know so, starting fresh. maybe im late, but idc ill just start.
+made some time. got really inspired by [this,](https://blog.gregbrockman.com/how-i-became-a-machine-learning-practitioner) i know a little but dont know how much, so starting fresh. maybe im late, but idc ill just start.
 
 i dont really get the difference between ML and DL, so for now ill assume ML is just statistics and DL is how to make machines think. also not jotting notes here, ill use a pen and paper for once. istg im not giving up again.
 
@@ -18,4 +18,3 @@ i dont really get the difference between ML and DL, so for now ill assume ML is 
 - [ ] [Visual Information Theory.](https://colah.github.io/posts/2015-09-Visual-Information) After ive done da meth
 
 dont really have seperate resources for da meth, will pick it up as i go. i was decent at it in school, i should be fine (this better not come bite me afterwards)
-
