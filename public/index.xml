@@ -13,28 +13,21 @@
       <link>https://lolwierd.com/mental-reset/</link>
       <pubDate>Mon, 12 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://lolwierd.com/mental-reset/</guid>
-      <description>Mental Reset In the time period between my last post and this, I did a bunch of things. Some of them dumb, some of them cool and most of them unnecessary. I’m proud of all of them nonetheless (but ofc I won’t talk about the dumb ones)
-I learned go. It is a pleasant language. Not amazing, not bad, good. Using go, I then proceeded to redo the backend of this blog.</description>
+      <description>Mental Reset In the time period between my last post and this, I did a bunch of things. Some of them dumb, some of them cool and most of them unnecessary. I’m proud of all of them nonetheless (but ofc I won’t talk about the dumb ones)&#xA;I learned go. It is a pleasant language. Not amazing, not bad, good. Using go, I then proceeded to redo the backend of this blog.</description>
     </item>
     <item>
       <title>Two ways to live</title>
       <link>https://lolwierd.com/two-ways-to-live/</link>
       <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
       <guid>https://lolwierd.com/two-ways-to-live/</guid>
-      <description>As far as I understand, there are 2 ways to live.
-[!note]
-ik False Dilemma . But bear with me I wrote this a while ago and I swear I have somthing to say.
-With ambition and without ambition. With dreams, like every other shonen protagonist and like Denji.
-I am halfway through Chainsaw Man , and it has moved me to an extent where I am forced to rethink how I view my life as a whole.</description>
+      <description>As far as I understand, there are 2 ways to live.&#xA;[!note]&#xA;ik False Dilemma . But bear with me I wrote this a while ago and I swear I have somthing to say.&#xA;With ambition and without ambition. With dreams, like every other shonen protagonist and like Denji.&#xA;I am halfway through Chainsaw Man , and it has moved me to an extent where I am forced to rethink how I view my life as a whole.</description>
     </item>
     <item>
       <title></title>
       <link>https://lolwierd.com/notes/3b1b-la/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://lolwierd.com/notes/3b1b-la/</guid>
-      <description>3B1B: Essence of Linear Algebra 1: Vectors 3 main ideas surrounding vectors.
-vectors - arrows pointing in space - has length and directon position does not matter can be 2D and 3D. vectors - ordered list of numbers - i.e vector fancy word for list last one i dont resonate with but here it is regardless. i dont really get it ig.
-vectors - can be anything as long as there is an addition and a multiplication operation possible.</description>
+      <description>3B1B: Essence of Linear Algebra 1: Vectors 3 main ideas surrounding vectors.&#xA;vectors - arrows pointing in space - has length and directon position does not matter can be 2D and 3D. vectors - ordered list of numbers - i.e vector fancy word for list last one i dont resonate with but here it is regardless. i dont really get it ig.&#xA;vectors - can be anything as long as there is an addition and a multiplication operation possible.</description>
     </item>
     <item>
       <title></title>
@@ -55,25 +48,21 @@ vectors - can be anything as long as there is an addition and a multiplication o
       <link>https://lolwierd.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://lolwierd.com/about/</guid>
-      <description>i like backend and system design
-platform @VaultCI
-GitHub </description>
+      <description>i like backend and system design.&#xA;i want to be a systems dev.&#xA;building a cloud + other things @ excloud&#xA;GitHub </description>
+    </item>
+    <item>
+      <title>links</title>
+      <link>https://lolwierd.com/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lolwierd.com/resources/</guid>
+      <description> cool links AI Illustrated guide to transformer Annotated PyTorch Paper Implementations Introduction to Text and Code Embeddings in the OpenAI API Networking Redhat- Network interfaces </description>
     </item>
     <item>
       <title>reading</title>
       <link>https://lolwierd.com/reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://lolwierd.com/reading/</guid>
-      <description>Books i really want to learn more about history. i feel like i dont know enough and i should. starting with biographies of cool people.
-also getting an overall feel for the historical timeline including prehistory from yt vids and articles.
-Also i haven&amp;rsquo;t really read the western classics when i was small. they had panchtantra, aesops fables and all at my library. So thats on my mind too.</description>
-    </item>
-    <item>
-      <title>resources</title>
-      <link>https://lolwierd.com/resources/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://lolwierd.com/resources/</guid>
-      <description> cool links Illustrated guide to transformer Annotated PyTorch Paper Implementations Introduction to Text and Code Embeddings in the OpenAI API Networking Redhat- Network interfaces </description>
+      <description>Books Papers Slacking quite a bit here. pretty much on pause tbh.&#xA;SQLite: Past, Present, and Future got the rec from twitter. started reading it like a week ago and haven&amp;rsquo;t touched it since. need to get back on it.&#xA;Out of the Tar Pit a hefty boi. read like 2 sections. reads like a history lesson. bunch of things i knew, made a bunch of connections.&#xA;Gorilla: A Fast, Scalable, In-Memory Time Series Database Cool paper.</description>
     </item>
   </channel>
 </rss>
